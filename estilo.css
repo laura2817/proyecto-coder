@@ -1,0 +1,72 @@
+.stories__video {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.stories__video .stories__video--youtubers {
+  width: 800px;
+  height: 500px;
+  max-width: 100%;
+  display: block;
+  padding: 50px;
+}
+
+.stories__title--third {
+  text-align: center;
+  line-height: 40px;
+}
+
+.stories__ul {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(2, 200px);
+  grid-column-gap: 100px;
+  grid-row-gap: 200px;
+  justify-content: space-around;
+  align-content: center;
+}
+.stories__ul .stories__image--second {
+  width: 300px;
+  height: 300px;
+  max-width: 100%;
+  border-radius: 50%;
+}
+.stories__ul .main-co__youtubers {
+  display: block;
+  text-align: center;
+  color: #eeeeee;
+  font-weight: 700;
+  margin: 0 0 25px 0;
+}
+
+.stories__ul, .stories__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 200px;
+}
+
+@media (max-width: 1125px) {
+  .stories__ul {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(3, 200px);
+    grid-column-gap: 100px;
+    grid-row-gap: 200px;
+    justify-content: space-around;
+    align-content: center;
+  }
+}
+@media (max-width: 737px) {
+  .stories__ul {
+    display: grid;
+    grid-template-columns: repeat(1, 300px);
+    grid-template-rows: repeat(6, 200px);
+    grid-column-gap: 100px;
+    grid-row-gap: 200px;
+    justify-content: space-around;
+    align-content: center;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */
